@@ -1,0 +1,32 @@
+{
+  "skills": {
+    "Frontend": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "ReactJS (Routing, Hooks, Axios, Bootstrap, Jest, Next.js)",
+      "ViteJS",
+      "Tailwind CSS"
+    ],
+    "Backend": [
+      "Java (MVC, JavaFX, Hibernate)",
+      "Node.js",
+      "Express.js",
+      "Python"
+    ],
+    "Databases": ["MongoDB", "MariaDB", "MySQL", "PostgreSQL"],
+    "APIs & Security": ["REST API", "JWT", "AWS"],
+    "DevOps & Tools": ["Postman", "Swagger", "npm", "DotEnv", "Nodemon"],
+    "Machine Learning": ["Keras", "TensorFlow", "PyTorch"],
+    "Version Control": ["Git", "GitHub", "GitLab"],
+    "Collaboration & UI": ["Trello", "Figma"],
+    "Methodologies": ["Scrum", "Waterfall"],
+    "System Administration": [
+      "Linux (Ubuntu) server management",
+      "Apache2",
+      "MariaDB administration",
+      "Windows 10/11"
+    ]
+  },
+  "languages": ["English (Fluent)", "Finnish (Native)"]
+}

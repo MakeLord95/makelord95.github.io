@@ -1,0 +1,44 @@
+{
+  "projects": [
+    {
+      "title": "MetPoll",
+      "emoji": "📊",
+      "description": "A React-based polling app to help teachers track lecture performance and receive student feedback.",
+      "role": "Developed backend (Python, Flask), connected frontend-backend, tested CRUD with Postman.",
+      "github": "https://github.com/Group-6-Software-Development/MetPoll"
+    },
+    {
+      "title": "StackConnect",
+      "emoji": "🌐",
+      "description": "A job-seeking platform for programmers built with MERN.",
+      "role": "Developed backend (Node.js, Express), implemented register/login, documented API (Swagger), deployed to Render.",
+      "github": "https://github.com/Group-6-Software-Development/Web_Project",
+      "live_demo": "https://stackconnect.onrender.com/"
+    },
+    {
+      "title": "FlightStation Simulator",
+      "emoji": "✈️",
+      "description": "A Java application simulating FlightStation service points.",
+      "role": "Designed UI (JavaFX), rewrote framework in English, wrote JavaDoc, managed Git conflicts.",
+      "github": "https://github.com/Group-6-Software-Development/FlightStation"
+    },
+    {
+      "title": "Neural Networking",
+      "emoji": "🧠",
+      "description": "A repository containing three Jupyter Notebooks on AI and ML projects.",
+      "github": "https://github.com/Group-6-Software-Development/Neural_Network_Project/",
+      "projects": [
+        {
+          "title": "Project 1 - Dogs vs Cats",
+          "role": "Wrote all the code, contributed to documentation.",
+          "notebook": "https://github.com/Group-6-Software-Development/Neural_Network_Project/blob/main/Notebooks/Project%201%20-%20Dogs%20vs%20Cats.ipynb"
+        },
+        {
+          "title": "Project 3 - Pneumonia Detection",
+          "role": "Sole contributor (wrote model, documentation).",
+          "notebook": "https://github.com/Group-6-Software-Development/Neural_Network_Project/blob/main/Notebooks/Project%203%20-%20Detecting%20Pneumonia%20from%20X-ray%20Images.ipynb"
+        }
+      ]
+    }
+  ]
+}
