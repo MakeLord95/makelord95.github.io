@@ -1,33 +1,11 @@
-import React, { useState } from "react";
-import SkillModal from "./SkillModal";
+import React from "react";
 
-function Skill({ skill }) {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-
-  const openModal = () => {
-    setIsModalOpen(true);
-  };
-
-  const closeModal = () => {
-    setIsModalOpen(false);
-  };
-
+const Skill = ({ skill }) => {
   return (
-    <>
-      <div
-        className="card p-4 flex flex-col items-center justify-center cursor-pointer hover:scale-105 transition-transform duration-300 h-28"
-        onClick={openModal}
-      >
-        {/* Use a placeholder for the icon */}
-        <div className="text-4xl mb-2 text-primary">
-          <i className={skill.logo}></i>
-        </div>
-        <span className="text-sm font-medium text-center">{skill.name}</span>
-      </div>
-
-      <SkillModal skill={skill} isOpen={isModalOpen} onClose={closeModal} />
-    </>
+    <span className="skill-tag inline-block bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full mr-2 mb-2 font-medium hover:bg-blue-200 cursor-default">
+      {skill}
+    </span>
   );
-}
+};
 
 export default Skill;

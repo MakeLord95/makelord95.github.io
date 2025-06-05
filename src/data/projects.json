@@ -39,6 +39,21 @@
           "notebook": "https://github.com/Group-6-Software-Development/Neural_Network_Project/blob/main/Notebooks/Project%203%20-%20Detecting%20Pneumonia%20from%20X-ray%20Images.ipynb"
         }
       ]
+    },
+    {
+      "title": "Nematron-AI",
+      "emoji": "🤖",
+      "description": "FastAPI backend with Docker, Ollama API integration, PostgreSQL DB, and streaming frontend.",
+      "role": "Developed backend web scraping, implemented streaming response handling, integrated Ollama language model, managed database schema.",
+      "github": null
+    },
+    {
+      "title": "Dungeon Crawler Prototype",
+      "emoji": "🗡️",
+      "description": "A closed-source pixel-art dungeon crawler in Godot 4.4 with procedural rooms, melee combat, and item upgrades.",
+      "role": "Solo developer, designed game mechanics, implemented procedural generation, melee combat system, and item upgrades.",
+      "github": null,
+      "live_demo": "https://makelord95.itch.io/cryptborn"
     }
   ]
 }
