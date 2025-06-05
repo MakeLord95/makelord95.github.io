@@ -31,19 +31,27 @@ const Project = ({ project }) => {
           )}
         </div>
       </div>
-
       <p className="text-gray-600 mb-4 leading-relaxed">
         {project.description}
       </p>
-
-      <div className="bg-gray-50 rounded-lg p-4 mb-4">
-        <h4 className="font-semibold text-gray-800 mb-2 flex items-center">
-          <i className="fas fa-user-check text-blue-600 mr-2"></i>
-          My Role
-        </h4>
-        <p className="text-gray-700">{project.role}</p>
-      </div>
-
+      {project.role && (
+        <div className="bg-blue-50 rounded-lg p-4 mb-4">
+          <h4 className="font-semibold text-gray-800 mb-2 flex items-center">
+            <i className="fas fa-user-tag text-blue-600 mr-2"></i>
+            My Role
+          </h4>
+          <p className="text-gray-700">{project.role}</p>
+        </div>
+      )}
+      {project.notes && (
+        <div className="bg-yellow-50 rounded-lg p-4 mb-4">
+          <h4 className="font-semibold text-gray-800 mb-2 flex items-center">
+            <i className="fas fa-sticky-note text-yellow-600 mr-2"></i>
+            Notes
+          </h4>
+          <p className="text-gray-700">{project.notes}</p>
+        </div>
+      )}
       {project.projects && (
         <div>
           <h4 className="font-semibold text-gray-800 mb-3 flex items-center">
