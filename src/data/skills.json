@@ -1,0 +1,49 @@
+{
+  "skills": {
+    "Frontend": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "React",
+      "Vite",
+      "Tailwind CSS"
+    ],
+    "Backend": [
+      "Java (MVC, JavaFX, Hibernate)",
+      "Node.js",
+      "Express.js",
+      "Python",
+      "FastAPI"
+    ],
+    "Databases": ["MongoDB", "MariaDB", "MySQL", "PostgreSQL"],
+    "APIs & Security": ["REST APIs", "JWT authentication"],
+    "Cloud & DevOps": [
+      "AWS (Basic)",
+      "Postman",
+      "Swagger",
+      "npm",
+      "Dotenv",
+      "Nodemon",
+      "Salesforce",
+      "Docker"
+    ],
+    "Web Servers & System Administration": [
+      "Apache2",
+      "Nginx",
+      "Ubuntu",
+      "Windows 10/11"
+    ],
+    "Machine Learning": ["Keras", "TensorFlow", "PyTorch"],
+    "Version Control": ["Git", "GitHub", "GitLab"],
+    "Project Management & Testing": [
+      "Jira",
+      "X-Ray",
+      "Cucumber/Gherkin",
+      "Manual Test Design"
+    ],
+    "Game Development": ["Godot Engine", "GDScript"],
+    "AI & Chatbots": ["Ollama (LLM-powered chatbot development)"],
+    "Collaboration & UI": ["Trello", "Figma"],
+    "Methodologies": ["Scrum", "Waterfall"]
+  }
+}
