@@ -1,0 +1,76 @@
+{
+  "projects": [
+    {
+      "title": "CryptBorn",
+      "emoji": "🕹️",
+      "description": "A top-down pixel-art dungeon crawler game featuring procedurally generated levels, real-time combat mechanics, and dynamic loot systems. Built from the ground up using Godot engine with custom gameplay mechanics and AI-driven enemy behaviors.",
+      "role": "Full-stack game developer responsible for core game systems including procedural level generation algorithms, enemy AI behavior trees, combat mechanics, inventory management, and item progression systems.",
+      "technologies": ["Godot", "GDScript"],
+      "live_demo": "https://makelord95.itch.io/cryptborn",
+      "notes": "Independent project that originated from a University of Applied Sciences introduction to game development course. Currently in alpha stage with a complete rewrite planned from the ground up to enhance core systems and expand gameplay features."
+    },
+    {
+      "title": "Nematron-AI",
+      "emoji": "🤖",
+      "description": "Enterprise-grade AI chatbot system developed through Metropolia University's Minno® innovation program. Features local AI inference capabilities, intelligent web scraping, and advanced search integration designed to address real-world client requirements.",
+      "role": "Backend engineer specializing in data integration services, including web scraping architecture, DuckDuckGo search API implementation, content summarization algorithms, and real-time messaging infrastructure for seamless frontend communication.",
+      "technologies": [
+        "FastAPI",
+        "Docker",
+        "PostgreSQL",
+        "Ollama",
+        "Nginx",
+        "Python"
+      ],
+      "notes": "Collaborative academic-industry project developed under strict confidentiality agreements with external clients. Delivered as part of a multidisciplinary team environment focusing on practical AI applications in business contexts."
+    },
+    {
+      "title": "MetPoll",
+      "emoji": "📊",
+      "description": "Real-time feedback collection platform enabling educators to monitor lecture effectiveness and student engagement through live polling and analytics dashboards.",
+      "role": "Lead backend developer responsible for designing and implementing RESTful API architecture, database integration, frontend-backend communication protocols, and comprehensive API testing procedures.",
+      "technologies": ["Python", "Flask", "HTML/CSS", "React", "Postman"],
+      "github": "https://github.com/Group-6-Software-Development/MetPoll",
+      "notes": "Collaborative University of Applied Sciences project focused on educational technology solutions. Delivered full backend infrastructure supporting real-time data collection and processing for academic environments."
+    },
+    {
+      "title": "StackConnect",
+      "emoji": "🌐",
+      "description": "Professional networking platform tailored for software developers, featuring job matching algorithms, portfolio showcase capabilities, and integrated communication tools built on modern web technologies.",
+      "role": "Backend architect responsible for server-side development using Node.js and Express, user authentication and authorization systems, comprehensive API documentation, and cloud deployment infrastructure management.",
+      "technologies": ["MongoDB", "Express", "Node.js", "Swagger", "Render"],
+      "github": "https://github.com/Group-6-Software-Development/Web_Project",
+      "live_demo": "https://stackconnect.onrender.com/",
+      "notes": "Team-based University of Applied Sciences web development project emphasizing full-stack architecture and modern deployment practices. Successfully delivered scalable backend services with comprehensive API documentation and cloud hosting integration."
+    },
+    {
+      "title": "FlightStation Simulator",
+      "emoji": "✈️",
+      "description": "Comprehensive airport operations simulation application modeling passenger flow dynamics, service point optimization, and resource allocation scenarios using discrete event simulation principles.",
+      "role": "Frontend developer and system architect responsible for user interface design using JavaFX, codebase internationalization from Finnish to English, core simulation logic implementation, and comprehensive technical documentation.",
+      "technologies": ["Java", "JavaFX", "SceneBuilder", "MariaDB"],
+      "github": "https://github.com/Group-6-Software-Development/FlightStation",
+      "notes": "University of Applied Sciences simulation project involving legacy code modernization and internationalization. Successfully transformed Finnish-language codebase into English while implementing enhanced user interface and simulation features."
+    },
+    {
+      "title": "Neural Networking",
+      "emoji": "🧠",
+      "description": "Comprehensive machine learning portfolio demonstrating advanced neural network implementations across diverse problem domains including computer vision and medical image analysis.",
+      "role": null,
+      "github": "https://github.com/Group-6-Software-Development/Neural_Network_Project/",
+      "notes": "Multi-project repository showcasing practical applications of deep learning techniques. Each project demonstrates end-to-end machine learning workflows including data preprocessing, model architecture design, training optimization, and performance evaluation.",
+      "projects": [
+        {
+          "title": "Project 1 - Dogs vs Cats",
+          "role": "Primary developer responsible for complete implementation of convolutional neural network architecture, data preprocessing pipelines, model training procedures, and comprehensive project documentation.",
+          "notebook": "https://github.com/Group-6-Software-Development/Neural_Network_Project/blob/main/Notebooks/Project%201%20-%20Dogs%20vs%20Cats.ipynb"
+        },
+        {
+          "title": "Project 3 - Pneumonia Detection",
+          "role": "Sole contributor responsible for developing medical image classification model, implementing deep learning architecture for X-ray analysis, and creating detailed technical documentation for clinical applications.",
+          "notebook": "https://github.com/Group-6-Software-Development/Neural_Network_Project/blob/main/Notebooks/Project%203%20-%20Detecting%20Pneumonia%20from%20X-ray%20Images.ipynb"
+        }
+      ]
+    }
+  ]
+}
