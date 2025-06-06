@@ -3,12 +3,25 @@ import React from "react";
 const Project = ({ project }) => {
   return (
     <div className="card-hover bg-white rounded-xl shadow-lg p-6 mb-6 border-l-4 border-blue-500 animate-fade-in">
-      <div className="flex items-start justify-between mb-4">
+      <div className="flex items-start justify-between mb-2">
+        {" "}
+        {/* Reduced mb from 4 to 2 for better spacing with date */}
         <div className="flex items-center">
           <span className="text-3xl mr-3">{project.emoji}</span>
-          <h3 className="text-2xl font-bold text-gray-800">{project.title}</h3>
+          <div>
+            {" "}
+            {/* Added a div to contain title and date */}
+            <h3 className="text-2xl font-bold text-gray-800">
+              {project.title}
+            </h3>
+            {project.year_done && ( // Conditionally render if year_done exists
+              <p className="text-gray-500 text-sm mt-1">{project.year_done}</p>
+            )}
+          </div>
         </div>
-        <div className="flex space-x-3">
+        <div className="flex space-x-3 mt-1">
+          {" "}
+          {/* Added mt-1 to align icons with date */}
           {project.github && (
             <a
               href={project.github}

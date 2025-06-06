@@ -10,10 +10,13 @@ const Header = () => {
             Software Engineer
           </h2>
           <p className="text-lg opacity-95 max-w-4xl mx-auto leading-relaxed mb-8">
-            Full-stack developer with a solid foundation in frontend and backend
-            technologies. I thrive on solving complex problems, adapt quickly to
-            new tools, and build clean, efficient solutions. Passionate about
-            modern web development, machine learning, and game development.
+            Software Engineer with a solid foundation in full-stack development,
+            encompassing both frontend and backend technologies. I have
+            practical experience in building robust and scalable applications
+            from end-to-end, leveraging modern tools to deliver clean,
+            efficient, and user-centric solutions. Driven by a passion for
+            problem-solving, I adapt quickly to new technologies and
+            continuously explore innovative areas like Machine Learning and AI.
           </p>
           <div className="flex justify-center items-center space-x-8 mt-8">
             <a
