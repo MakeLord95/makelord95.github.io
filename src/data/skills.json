@@ -10,40 +10,32 @@
     ],
     "Backend": [
       "Java (MVC, JavaFX, Hibernate)",
-      "Node.js",
-      "Express.js",
-      "Python",
-      "FastAPI"
+      "Node.js (Express, Nodemon, Dotenv)",
+      "Python (FastAPI)"
+    ],
+    "Testing & QA": [
+      "Playwright (Python, codegen, E2E testing on web apps incl. Salesforce)",
+      "Cucumber/Gherkin",
+      "Manual Test Design",
+      "X-Ray",
+      "Postman",
+      "Swagger"
     ],
     "Databases": ["MongoDB", "MariaDB", "MySQL", "PostgreSQL"],
-    "APIs & Security": ["REST APIs", "JWT authentication"],
-    "Cloud & DevOps": [
+    "Authentication & APIs": ["REST APIs", "JWT Authentication"],
+    "DevOps & Deployment": [
+      "Docker",
       "AWS (Basic)",
-      "Postman",
-      "Swagger",
-      "npm",
-      "Dotenv",
-      "Nodemon",
-      "Salesforce",
-      "Docker"
-    ],
-    "Web Servers & System Administration": [
       "Apache2",
       "Nginx",
-      "Ubuntu",
-      "Windows 10/11"
+      "Ubuntu"
     ],
-    "Machine Learning": ["Keras", "TensorFlow", "PyTorch"],
     "Version Control": ["Git", "GitHub", "GitLab"],
-    "Project Management & Testing": [
-      "Jira",
-      "X-Ray",
-      "Cucumber/Gherkin",
-      "Manual Test Design"
-    ],
+    "Machine Learning": ["Keras", "TensorFlow", "PyTorch"],
     "Game Development": ["Godot Engine", "GDScript"],
-    "AI & Chatbots": ["Ollama (LLM-powered chatbot development)"],
-    "Collaboration & UI": ["Trello", "Figma"],
+    "AI & Chatbots": ["Ollama (LLM-based chatbot dev)"],
+    "Collaboration & UI": ["Figma", "Trello", "Jira"],
+    "Other Tools": ["Salesforce"],
     "Methodologies": ["Scrum", "Waterfall"]
   }
 }
