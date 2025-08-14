@@ -40,7 +40,7 @@ const Header = () => {
                 <span className="text-sm font-medium">GitHub</span>
               </a>
               <a
-                href="https://www.linkedin.com/in/markus-s-08659537a/"
+                href="https://www.linkedin.com/in/markus--salin/"
                 className="flex items-center space-x-2 text-white hover:text-blue-200 transition-all duration-300 hover:scale-105"
                 target="_blank"
                 rel="noopener noreferrer"
